@@ -3,14 +3,11 @@
   "node":"0.10.2",
   "author":"bmtjpark",
   "dependencies": {
-  	"body-parser": "*",
+    "body-parser": "*",
   	"express": "*",
     "morgan": "*",
     "mqtt": "*",
   	"pi-gpio": "*",
     "request": "*"
-  	  },
-  "scripts": {
-  	"start": ""
   }
 }
