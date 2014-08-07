@@ -1,6 +1,5 @@
 
 var aotrpi = require('../lib/aot-rpi');
-var request = require('request');
 var AUTHORIZATION = "Basic RDI0MTQ3NDgwMjQ5OjBjNmVhNjk1ZmZjZDQwOGQ=";
 var DEVICE_ID = "D24147480249";
 var NODE_ID = "1";
