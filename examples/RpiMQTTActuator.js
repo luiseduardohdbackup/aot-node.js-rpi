@@ -1,5 +1,5 @@
 
-var aotrpi = require('../aot-rpi');
+var aotrpi = require('../lib/aot-rpi');
 var DEVICE_ID = "D43909863659";
 var DEVICE_KEY = "22b342d1382c4b0b";
 var NODE_ID = "2";

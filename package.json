@@ -19,6 +19,7 @@
     "type": "git",
     "url": "git://github.com/ntels-aot/aot-node.js-rpi.git"
   },
+  "main": "./lib/aot-rpi",
   "license": "Apache2",
   "bugs": {
     "url": "https://github.com/ntels-aot/aot-node.js-rpi/issues"

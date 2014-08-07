@@ -1,5 +1,5 @@
 
-var aotrpi = require('../aot-rpi');
+var aotrpi = require('../lib/aot-rpi');
 var request = require('request');
 var AUTHORIZATION = "Basic RDI0MTQ3NDgwMjQ5OjBjNmVhNjk1ZmZjZDQwOGQ=";
 var DEVICE_ID = "D24147480249";
@@ -12,7 +12,7 @@ setInterval(function() {
 	var content =[{
     	"content_value" : input_value
 	}];
-	aotrpi.post(SERVER_IP,DEVICE_ID,NODE_ID,content);
+	aotrpi.post(AUTHORIZATION,DEVICE_ID,NODE_ID,content);
 
 }, 5*1000);
 
