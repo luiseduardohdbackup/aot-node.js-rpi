@@ -1,14 +1,29 @@
 {
   "name":"aot-rpi",
-  "node":"0.10.2",
-  "author":"bmtjpark",
+  "version": "0.0.2",
+  "description": "A library for allofthings.com raspberry pi",
+  "engines": { "node": ">= 0.10.26" }, 
+  "author":"taejin park",
   "dependencies": {
     "body-parser": "*",
-  	"express": "*",
+    "express": "*",
     "morgan": "*",
     "mqtt": "*",
-  	"pi-gpio": "*",
+    "pi-gpio": "*",
     "request": "*"
+  },
+  "keywords": [
+    "IoT",
+    "Raspberry Pi",
+    "Device"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ntels-aot/aot-node.js-rpi.git"
+  },
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/ntels-aot/aot-node.js-rpi/issues"
   }
   
 }
