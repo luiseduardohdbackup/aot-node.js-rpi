@@ -1,5 +1,5 @@
 {
-  "name":"aot-node.js-raspberry-pi",
+  "name":"aot-rpi",
   "node":"0.10.2",
   "author":"bmtjpark",
   "dependencies": {
