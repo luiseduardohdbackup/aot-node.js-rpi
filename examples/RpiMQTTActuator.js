@@ -1,15 +1,15 @@
 
 var aotrpi = require('../aot-rpi');
-var DEVICE_ID = "D33373850674";
-var DEVICE_KEY = "5132766e835047ed";
-var NODE_ID = "4";
+var DEVICE_ID = "D43909863659";
+var DEVICE_KEY = "22b342d1382c4b0b";
+var NODE_ID = "2";
 var gpioPin = 16;
 
 
-var client = aotrpi.getSubClient(DEVICE_ID,DEVICE_KEY);
+var sub_client = aotrpi.getSubClient(DEVICE_ID,DEVICE_KEY);
 
-client.subscribe('/'+DEVICE_ID+'/subscribe');
-client.on('message', function (topic, message) { 
+sub_client.subscribe('/'+DEVICE_ID+'/subscribe');
+sub_client.on('message', function (topic, message) { 
 	
 	try {
         

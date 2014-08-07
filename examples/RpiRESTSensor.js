@@ -1,8 +1,8 @@
 
 var aotrpi = require('../aot-rpi');
 var request = require('request');
-var AUTHORIZATION = "Basic RDcwMTI3MTc2NjEwOm51bGw=";
-var DEVICE_ID = "D70127176610";
+var AUTHORIZATION = "Basic RDI0MTQ3NDgwMjQ5OjBjNmVhNjk1ZmZjZDQwOGQ=";
+var DEVICE_ID = "D24147480249";
 var NODE_ID = "1";
 var gpioPin = 18;
 

@@ -1,13 +1,13 @@
 
 var aotrpi = require('../aot-rpi');
 var gpio = require("pi-gpio");
-var DEVICE_ID = "D33373850674";
-var DEVICE_KEY = "5132766e835047ed";
+var DEVICE_ID = "D43909863659";
+var DEVICE_KEY = "22b342d1382c4b0b";
 var NODE_ID = "1";
 var gpioPin = 18;
 
 
-var client = aotrpi.getPubClient(DEVICE_ID,DEVICE_KEY);
+var pub_client = aotrpi.getPubClient(DEVICE_ID,DEVICE_KEY);
 
 setInterval(function() {	
 	var input_value = aotrpi.gpioRead(gpioPin);
@@ -19,7 +19,7 @@ setInterval(function() {
     		"content_value" : input_value+""
 	};
 	console.log(JSON.stringify(content));
-    client.publish('/'+DEVICE_ID+'/publish', JSON.stringify(content));	
+    pub_client.publish('/'+DEVICE_ID+'/publish', JSON.stringify(content));	
 	console.log("success !!");
 }, 5*1000);
 
