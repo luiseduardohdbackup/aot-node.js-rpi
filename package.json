@@ -5,8 +5,6 @@
   "engines": { "node": ">= 0.10.26" }, 
   "author":"taejin park",
   "dependencies": {
-    "body-parser": "*",
-    "express": "*",
     "morgan": "*",
     "mqtt": "*",
     "pi-gpio": "*",
