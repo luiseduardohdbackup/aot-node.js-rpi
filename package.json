@@ -1,16 +1,21 @@
 {
-  "name":"aot-rpi",
+  "name": "aot-rpi",
   "version": "0.0.6",
   "description": "A library for allofthings.com raspberry pi",
-  "engines": { "node": ">= 0.10.26" }, 
-  "author":"taejin park",
+  "engines": {
+    "node": ">= 0.10.26"
+  },
+  "author": {
+    "name": "taejin park"
+  },
   "dependencies": {
     "morgan": "*",
     "mqtt": "*",
     "pi-gpio": "*",
     "request": "*",
     "express": "*",
-    "body-parser": "*"
+    "body-parser": "*",
+    "ds18x20": "*"
   },
   "keywords": [
     "IoT",
@@ -25,6 +30,26 @@
   "license": "Apache2",
   "bugs": {
     "url": "https://github.com/ntels-aot/aot-node.js-rpi/issues"
-  }
-  
+  },
+  "homepage": "https://github.com/ntels-aot/aot-node.js-rpi",
+  "_id": "aot-rpi@0.0.6",
+  "dist": {
+    "shasum": "8d7975daa1b46ecbfc7b4ff5407c423cf33c8a83",
+    "tarball": "http://registry.npmjs.org/aot-rpi/-/aot-rpi-0.0.6.tgz"
+  },
+  "_from": "aot-rpi@",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "bmtjpark",
+    "email": "bmtjpark@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "bmtjpark",
+      "email": "bmtjpark@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "8d7975daa1b46ecbfc7b4ff5407c423cf33c8a83",
+  "_resolved": "https://registry.npmjs.org/aot-rpi/-/aot-rpi-0.0.6.tgz"
 }
